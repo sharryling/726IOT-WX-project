@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index2/index2",
+    "pages/index/index",
+    "pages/index3/index3",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00ffff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#49AFE3",
+    "selectedColor":"#E35E4D",
+    "list": [
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "首页",
+        "iconPath":"icons/icon_firstPage.png",
+        "selectedIconPath":"icon_selected/icon_firstPage.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icons/changjingguanli.png",
+        "selectedIconPath": "icon_selected/changjingguanli.png"
+      }
+    ]
+  }
+}

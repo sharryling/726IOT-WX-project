@@ -1,0 +1,9 @@
+/**index.wxss**/
+@import "../../style/common.wxss"
+
+.box1{
+  color: yellow;
+  background-color: #585c37;
+  height:232rpx;
+  width: 740rpx;
+}

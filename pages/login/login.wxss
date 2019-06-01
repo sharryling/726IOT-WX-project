@@ -1,0 +1,28 @@
+page{
+  background: rgb(229, 231, 220);
+}
+.iconTop{
+  display: flex;
+  justify-content: center;
+  margin:  150rpx 0 25rpx 0;
+}
+image{
+  width: 300rpx;
+  height: 400rpx;
+}
+.inputView{
+  display: flex;
+  justify-content: center;
+  margin: 26rpx 0;
+}
+.inputBox{
+  border: 1px #ccc solid;
+  color: hsla(0, 5%, 34%, 0.726);
+  width: 400rpx;
+}
+button{
+  width: 150rpx;
+  height: 80rpx;
+  font-size:16px;
+  margin-top: 50rpx;
+}

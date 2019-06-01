@@ -1,0 +1,16 @@
+<view> Helloween   ||  {{msg}} 
+<view data-id="{{title}}" wx:if="!flag11"> person = {{person.name +  person.age}}</view> 
+<checkbox checked="{{flag1}}"></checkbox>
+<view wx:for="{{fruits}}" wx:key="{{item.id}}">
+{{index}}  -- {{item.id}}  -- {{item.name}}
+</view>
+----------------------------------
+<view wx:for="{{person}}" wx:key="{{index}}">
+{{index}}  -- {{item}}
+</view>
+<view class="box1">asdf</view>
+
+
+
+<view class="lg_box"></view>
+</view>

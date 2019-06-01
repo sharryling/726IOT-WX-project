@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class='iconTop'>
+<image src='../../src/images/128.png' mode='widthFix'></image>
+</view>
+
+<view>
+<view class='inputView'>
+登录账号：
+<input class='inputBox' bindinput="userNameInput" placeholder="{{userName}}"></input>
+</view>
+<view class='inputView'>
+登录密码：
+<input class='inputBox' bindinput="userPWInput"  placeholder="{{userPW}}"></input>
+</view>
+<view> <button class="weui-btn" bindtap="login">登录</button> </view>
+</view> 
