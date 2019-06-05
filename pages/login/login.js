@@ -1,9 +1,7 @@
 // pages/login/login.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
+
   data: {
     userName: '726iot', //726iot
     userPW:'123456'  //123456
@@ -19,7 +17,18 @@ Page({
       method:'POST',
       dataType:'json',
       success:function(res){
-        if(res.data.code == 0)console.log("登录成功！")
+        if(res.data.code == 0){
+          wx.navigateTo({
+            //目的页面地址
+            url: '../../pages/devList/devList',
+            success: function (res) {
+              //console.log("跳转啦!")
+            },
+            fail: (err) => {
+              console.error(err)
+            }
+          })
+        }
         else console.log("登录错误！")
       }
     })

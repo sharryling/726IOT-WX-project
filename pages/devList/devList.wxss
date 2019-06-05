@@ -1,0 +1,9 @@
+.listView{
+  display: flex;
+  justify-content: center;
+}
+.listBox{
+  border: 1px #ccc solid;
+  width: 50%;
+  text-align: center;
+}

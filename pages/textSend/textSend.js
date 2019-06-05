@@ -1,4 +1,4 @@
-// pages/index3/index3.js
+// pages/textSend/textSend.js
 Page({
 
   /**

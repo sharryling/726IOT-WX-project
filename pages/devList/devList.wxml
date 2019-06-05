@@ -1,0 +1,11 @@
+<!--pages/index3/index3.wxml-->
+<h1>Device List</h1>
+<view wx:for='{{devList}}' wx:key='index' class='listView'>
+  <view class='listBox'>
+    <view class="infoBox">imei:{{item.imei}}\n status: {{item.status}} </view>
+    <view class="icon-group">
+      <icon wx:if="{{item.status==0}}" type="success" size="16" data-info="{{item}}" bindtap="devChecked"></icon>
+      <icon wx:else type="warn" size="16"></icon>
+    </view>
+  </view>
+</view>

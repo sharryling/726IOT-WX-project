@@ -1,0 +1,19 @@
+{
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "../page/devList/devList",
+        "text": "组件"
+      },
+      {
+        "pagePath": "../page/logs/logs",
+        "text": "接口"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

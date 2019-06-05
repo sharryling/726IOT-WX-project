@@ -1,6 +1,4 @@
-page{
-  background: rgb(229, 231, 220);
-}
+
 .iconTop{
   display: flex;
   justify-content: center;
@@ -26,3 +24,12 @@ button{
   font-size:16px;
   margin-top: 50rpx;
 }
+.centerText{
+ width: 200px;
+ position:absolute;  
+ bottom:0px;  
+ padding:0px;  
+ left: 50%;
+ text-align: center;
+ margin-left: -100px;
+}  

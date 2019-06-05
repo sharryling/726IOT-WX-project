@@ -14,3 +14,7 @@
 </view>
 <view> <button class="weui-btn" bindtap="login">登录</button> </view>
 </view> 
+<view  class='centerText' style='margin-bottom:100rpx;'>
+<text style='color:#189cf0;'>注册</text>
+</view>
+

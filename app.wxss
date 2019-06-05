@@ -2,8 +2,8 @@
 @import "./style/weui.wxss";
 page{
   font-size:16px;
+  /* background: rgb(229, 231, 220); */
 }
-
 .container {
   height: 100%;
   display: flex;
@@ -12,4 +12,7 @@ page{
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+  font-size: 35rpx;
+  color: #333;
+  font-family: Helvetica,Arial,"Helvetica Neue","Droid Sans","Microsoft YaHei",sans-serif;
 } 

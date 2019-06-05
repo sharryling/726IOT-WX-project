@@ -1,0 +1,8 @@
+<!--pages/textSend/textSend.wxml-->
+<view class='sendView'>
+  <view class='textBox'>
+  <textarea></textarea>
+  </view>
+  <button style='margin-bottom:25rpx;'>MQTT发送</button>
+  <button>NBIOT发送</button>
+</view>

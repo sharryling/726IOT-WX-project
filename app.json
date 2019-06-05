@@ -1,14 +1,17 @@
 {
   "pages": [
+    "pages/textSend/textSend",
     "pages/login/login",
+    "pages/devList/devList",
+    "pages/tempShow/tempShow",
+    
     "pages/index2/index2",
     "pages/index/index",
-    "pages/index3/index3",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#00ffff",
+    "navigationBarBackgroundColor": "#b7e4f3",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
