@@ -8,7 +8,7 @@ Page({
     devList: [],
     typeList: ['success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear']
 
-  },
+  }, 
 
   /**
    * 生命周期函数--监听页面加载
